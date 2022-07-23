@@ -1,5 +1,4 @@
 import React from "react";
-import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import HeaderOption from "./HeaderOption";
@@ -8,6 +7,7 @@ import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 import ChatIcon from "@material-ui/icons/Chat";
 import NotificationsIcon from "@material-ui/icons/Notifications";
+import "./Header.css";
 
 function Header() {
   return (
@@ -32,4 +32,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header; 
